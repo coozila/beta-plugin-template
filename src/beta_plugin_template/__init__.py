@@ -12,7 +12,7 @@ class Message(TypedDict):
     content: str
 
 
-class AlphaPluginTemplate(AbstractSingleton, metaclass=Singleton):
+class BetaPluginTemplate(AbstractSingleton, metaclass=Singleton):
     """
     This is a template for betaplugins.
     """
